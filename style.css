@@ -1,0 +1,166 @@
+/* GLOBAL */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 105px;
+  font-weight: normal;
+  color: white;
+  margin-top: 200px;
+}
+
+h2 {
+  font-size: 42px;
+  color: #5b1474;
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+/* HEADER */
+
+header {
+  background-image: linear-gradient(
+      112.69deg,
+      #000000 7%,
+      rgba(100, 100, 100, 0.6) 55%,
+      #000000 98%
+    ),
+    url(header-background-img.png);
+  height: 100vh;
+  width: 100%;
+}
+
+.header-container {
+  width: 85%;
+  display: flex;
+  margin-left: 7.5%;
+  height: 100vh;
+}
+
+.header-container__left {
+  width: 40%;
+}
+
+.header-container__right {
+  width: 60%;
+}
+
+#logo {
+  font-size: 36px;
+  color: white;
+  margin-top: 100px;
+}
+
+nav {
+  font-size: 26px;
+  color: white;
+  font-weight: normal;
+  margin-top: 100px;
+  width: 60%;
+  float: right;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* MAIN */
+
+.main-content {
+  width: 1060px;
+  margin: 0 auto;
+}
+
+.main-content img {
+  border-radius: 2px;
+  box-shadow: 0px 1px 4px rgb(173, 173, 173);
+}
+
+/* WELCOME */
+
+.welcome-content {
+  display: flex;
+}
+
+.welcome-content__left,
+.welcome-content__right {
+  width: 490px;
+}
+
+.welcome-content__left {
+  margin-right: 80px;
+}
+
+.welcome-content p::first-letter {
+  font-size: 42px;
+  color: #5b1474;
+}
+
+.welcome-content p {
+  line-height: 2em;
+}
+
+/* PRICING */
+
+.pricing-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pricing-card {
+  width: 300px;
+  text-align: center;
+  box-shadow: 0px 1px 4px rgb(173, 173, 173);
+  height: 504px;
+}
+
+button {
+  box-shadow: 0px 1px 4px #5b1474;
+  border-radius: 2px;
+  width: 150px;
+  height: 30px;
+  color: #5b1474;
+  font-size: 20px;
+  background-color: white;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+
+button:hover {
+  background-color: #5b1474;
+  color: white;
+}
+
+/* TESTIMONIALS */
+
+.testimonial {
+  box-shadow: 0px 1px 4px rgb(173, 173, 173);
+  margin-bottom: 80px;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+#author {
+  text-align: right;
+  font-style: italic;
+  padding-bottom: 10px;
+}
+
+/* FOOTER */
+
+footer {
+  text-align: center;
+  margin-top: 300px;
+  margin-bottom: 25px;
+}
